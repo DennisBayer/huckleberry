@@ -1,12 +1,101 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* Add styles here! */
+
+/* Font Scales
+1rem
+1.25rem
+1.5rem
+2rem
+ */
+
+/* Spacing
+8px
+16px
+24px
+32px
+48px
+64px
+96px
+128px
+ */
+
+/* Color palette
+Primary (green):
+	hsl(160, 100%, 30%)
+Secondary (gold):
+	hsl(45, 100%, 50%) (lighter)
+	hsl(45, 100%, 40%) (darker)
+Grays:
+	hsl(0, 0%, 0%) (black)
+	hsl(0, 0%, 10%) (very dark)
+	hsl(0, 0%, 30%) (dark)
+	hsl(0, 0%, 40%) (medium)
+	hsl(0, 0%, 60%) (light)
+	hsl(0, 0%, 100%) (white)
+ */
+
+header, main {
+	padding: 64px;
+}
+
+header {
+	padding-bottom: 16px;
+
+	border-bottom: 4px solid hsl(0, 0%, 40%);
+}
+
+main {
+	background: hsl(0, 0%, 60%);
+}
+
+.max-width-wrapper {
+	margin: 0 auto;
+	max-width: 75%;
+}
+
+.intro-chunk, .card {
+	padding: 16px;
+}
+
+.intro-chunk {
+	max-width: 75%;
+}
+
+.intro-chunk strong {
+	color: hsl(160, 100%, 30%);
+}
+
+.title {
+	padding-bottom: 1.5rem;
+
+	font-size: 1.25rem;
+}
+
+.card {
+	font-size: 0.8rem;
+
+	background: hsl(0, 0%, 100%);
+	border-bottom: 4px solid hsl(0, 0%, 40%);
+}
+
+.indented-heading {
+	margin-top: -8px;
+	margin-left: -32px;
+	padding: 16px 32px;
+	width: max-content;
+
+	font-size: 1rem;
+
+	background: hsl(45, 100%, 50%);
+	border-bottom: 4px solid hsl(45, 100%, 40%);
+}
