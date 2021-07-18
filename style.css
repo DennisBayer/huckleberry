@@ -92,7 +92,7 @@ main {
 	margin-top: -8px;
 	margin-left: -32px;
 	padding: 16px 32px;
-	width: max-content;
+	width: fit-content;
 
 	font-size: 1rem;
 
